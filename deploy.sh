@@ -5,8 +5,9 @@ sudo apt update
 sudo apt install -y git python3 python3-pip python3-venv
 
 # Клонування репозиторію
-git clone https://github.com/kshypachov/web-client_trembita_sync.git
-cd web-client_trembita_sync
+#git clone https://github.com/kshypachov/web-client_trembita_sync.git
+git clone https://github.com/MadCat-88/Trembita_Py_R_SyncCli.git
+cd rembita_Py_R_SyncCli
 
 # Створення та активація віртуального оточення
 python3 -m venv venv
