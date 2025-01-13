@@ -24,7 +24,7 @@ git clone https://github.com/MadCat-88/Trembita_Py_R_SyncCli.git
 ### 3. Перейти до директорії з вебклієнтом
 
 ```bash
-cd web-client_trembita_sync
+cd Trembita_Py_R_SyncCli
 ```
 
 ### 4. Створити віртуальне середовище
