@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ### 8. Створити systemd unit-файл для запуску вебсервісу:
 
 ```bash
-sudo bash -c "cat > /etc/systemd/system/flask-app.service" << EOL
+sudo bash -c "cat > /etc/systemd/system/fastapi_trembita_client.service" << EOL
 [Unit]
 Description=Flask Application
 After=network.target
@@ -73,7 +73,7 @@ sudo systemctl daemon-reload
 10. Додати сервіс до автозапуску
 
 ```bash
-sudo systemctl enable flask-app
+sudo systemctl enable fastapi_trembita_client
 ```
 
 ##
