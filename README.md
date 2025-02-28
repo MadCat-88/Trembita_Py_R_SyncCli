@@ -73,7 +73,7 @@ web-client_trembita_sync/
 Для запуска вебклієнту необхідно виконати наступну команду:
 
 ```bash
-sudo systemctl start flask-app
+sudo systemctl start fastapi_trembita_client
 ```
 
 ### Доступ до вебклієнту
@@ -88,14 +88,14 @@ http://<your_server_ip>:5000
 Для того, щоб перевірити статус вебклієнту необхідно виконати наступну команду:
 
 ```bash
-sudo systemctl status flask-app
+sudo systemctl status fastapi_trembita_client
 ```
 
 ### Зупинка вебклієнту
 
 Для зупинки роботи вебсервісу необхідно виконати наступну команду:
 ```bash
-sudo systemctl stop flask-app
+sudo systemctl stop fastapi_trembita_client
 ```
 
 ### Видалення вебклієнту
